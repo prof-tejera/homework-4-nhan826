@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Orbitron:wght@700&family=Oxanium:wght@300&display=swap');
+.CalcStyle{
+    background-color: #38618ce5;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    font-family: 'Oxanium', serif;;
+    font-size: 30px;
+    border: 3px solid #424242;
+
+    opacity: 90%;
+    transition: all .4s ease;
+    
+}
+
+.CalcStyle:hover{
+    transform: scale(1.005);
+    box-shadow: 0px 0px 10px 1px #5dab7af8;
+    -webkit-box-shadow: 0px 0px 10px 1px #5dab7af8;
+    -moz-box-shadow: 0px 0px 10px 1px  #5dab7af8;
+}
+
+
+.CalcContain{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 27px;
+}
+
+.NumContain{
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 80px;
+    text-align: center;
+    padding-top: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 22px;
+}
+
+.OpContain{
+    display: inline-flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 20px;
+    height: 300px;
+    margin-left: 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+}
