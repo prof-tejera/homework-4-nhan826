@@ -1,0 +1,20 @@
+.DefaultNum{
+    padding: 10;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    background: rgb(76,187,97);
+    background: linear-gradient(45deg, rgba(76,187,97,0.7707053829479769) 11%, rgba(81,186,101,0.9730175216763006) 32%, rgba(74,182,95,0.7909365968208093) 57%, rgba(81,186,101,0.9759076950867052) 75%, rgba(79,196,101,0.7186822615606936) 91%);
+    opacity: 90%;
+}
+
+.DefaultNum:hover{
+    transform: scale(1.03);
+    opacity: 100%;
+}
